@@ -1,0 +1,162 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Практическая__4
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            /* Задача 1
+           int a;
+           Console.Write("введите a=");
+           a = Convert.ToInt32(Console.ReadLine());
+           if (a > 0) a = a + 1;
+           else a = a - 2;
+           Console.WriteLine("Ввывод a=" + a);
+           Console.ReadKey();
+
+           *Задача 2*
+           *
+           int a;
+           Console.Write(" Введите a=");
+           a = Convert.ToInt32(Console.ReadLine());
+           if (a > 0) a = a + 1;
+           Console.WriteLine(" Вывод a=" + a);
+           Console.ReadKey();
+
+
+           Задача 3
+            
+           int a;
+           Console.Write("введите a=");
+           a = Convert.ToInt32(Console.ReadLine());
+
+           if (a > 0) a = a + 1;
+           if (a == 0) a = a + 10;
+           else a = a - 2;
+           Console.WriteLine("Ввывод a=" + a);
+           Console.ReadKey();
+            
+
+            Задача 4
+            
+         
+            Console.Write("Введите целое число: ");
+            string input = Console.ReadLine();
+
+            if (int.TryParse(input, out int number))
+            {
+                if (number % 2 == 0)
+                {
+                    Console.WriteLine("Число {0} четное.", number);
+                }
+                else
+                {
+                    Console.WriteLine("Число {0} нечетное.", number);
+                }
+            }
+            else
+            {
+                Console.WriteLine("Некорректный ввод. Пожалуйста, введите целое число.");
+            }
+                Console.ReadLine();
+           
+            Задача 5
+                
+            Console.Write("Введите число: ");
+
+            if (int.TryParse(Console.ReadLine(), out int number))
+            {
+                if (number > 0)
+                {
+                    Console.WriteLine("Число положительное.");
+                }
+                else if (number < 0)
+                {
+                    Console.WriteLine("Число отрицательное.");
+                }
+                else
+                {
+                    Console.WriteLine("Число равно нулю.");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Некорректный ввод. Пожалуйста, введите целое число.");
+            }
+
+            Задача 6
+
+            Console.Write("Введите цену ноутбука (в рублях): ");
+            if (double.TryParse(Console.ReadLine(), out double price))
+            {
+                if (price >= 20000 && price <= 30000)
+                {
+                    Console.WriteLine("Цена ноутбука входит в указанный диапазон.");
+                }
+                else
+                {
+                    Console.WriteLine("Цена ноутбука не входит в указанный диапазон.");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Некорректный ввод. Пожалуйста, введите число.");
+            }
+            
+            Console.Write("Введите цену ноутбука (в рублях): ");
+            if (double.TryParse(Console.ReadLine(), out double price))
+            {
+                if (price >= 20000 && price <= 30000)
+                {
+                    Console.WriteLine("Цена ноутбука входит в указанный диапазон.");
+                }
+                else
+                {
+                    Console.WriteLine("Цена ноутбука не входит в указанный диапазон.");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Некорректный ввод. Пожалуйста, введите число.");
+            }
+            Console.ReadLine();
+            
+            Задача 7
+          
+                Console.Write("Введите год: ");
+            if (int.TryParse(Console.ReadLine(), out int year))
+            {
+                bool isLeapYear = (year % 4 == 0 && year % 100 != 0) || year % 400 == 0;
+
+                if (isLeapYear)
+                {
+                    Console.WriteLine($"{year} год является високосным.");
+                }
+                else
+                {
+                    Console.WriteLine($"{year} год не является високосным.");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Некорректный ввод. Пожалуйста, введите целое число.");
+            }
+            Console.ReadLine();
+             */
+
+            //int num2 = 6;
+            //if (num1 > num2)
+            //{
+            //    Console.WriteLine($"Число {num1} больше числа {num2}");
+            //}
+            //Console.ReadKey();
+
+        }
+    }
+}
+      
